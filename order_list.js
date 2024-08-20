@@ -16,6 +16,7 @@
                 // クライアントの作成
                 var client = new KintoneRestAPIClient();
                 // 受注照会から全データを取得して削除
+                // コメント入力のテスト
                 const res1 = await client.record.getAllRecords({ app: '102' });
                 console.log(res1);
                 let ary1 = [];
